@@ -1,7 +1,7 @@
-package org.example.service;
+package org.flipkart.service;
 
-import org.example.entity.Event;
-import org.example.entity.Member;
+import org.flipkart.entity.Event;
+import org.flipkart.entity.Member;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

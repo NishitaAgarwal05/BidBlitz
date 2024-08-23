@@ -1,4 +1,4 @@
-package org.example.entity;
+package org.flipkart.entity;
 
 public class Member extends User{
     private int id;

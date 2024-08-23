@@ -1,6 +1,6 @@
-package org.example.service;
+package org.flipkart.service;
 
-import org.example.entity.Event;
+import org.flipkart.entity.Event;
 
 public interface WinningStrategy {
      void declareWinner(Event event);

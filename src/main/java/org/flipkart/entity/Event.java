@@ -1,4 +1,4 @@
-package org.example.entity;
+package org.flipkart.entity;
 
 import java.util.*;
 

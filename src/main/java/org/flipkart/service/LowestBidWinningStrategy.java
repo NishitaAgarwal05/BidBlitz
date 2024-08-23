@@ -1,8 +1,8 @@
-package org.example.service;
+package org.flipkart.service;
 
-import org.example.entity.Bid;
-import org.example.entity.Event;
-import org.example.entity.Member;
+import org.flipkart.entity.Bid;
+import org.flipkart.entity.Event;
+import org.flipkart.entity.Member;
 
 import java.util.Date;
 import java.util.List;

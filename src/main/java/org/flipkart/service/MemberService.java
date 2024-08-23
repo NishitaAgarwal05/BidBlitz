@@ -1,6 +1,6 @@
-package org.example.service;
+package org.flipkart.service;
 
-import org.example.entity.Member;
+import org.flipkart.entity.Member;
 
 import java.util.ArrayList;
 import java.util.List;

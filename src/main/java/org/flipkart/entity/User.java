@@ -1,4 +1,4 @@
-package org.example.entity;
+package org.flipkart.entity;
 
 public class User {
     private String name;

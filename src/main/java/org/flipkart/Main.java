@@ -1,9 +1,9 @@
-package org.example;
+package org.flipkart;
 
-import org.example.entity.Member;
-import org.example.service.EventService;
-import org.example.service.LowestBidWinningStrategy;
-import org.example.service.MemberService;
+import org.flipkart.entity.Member;
+import org.flipkart.service.EventService;
+import org.flipkart.service.LowestBidWinningStrategy;
+import org.flipkart.service.MemberService;
 
 import java.text.ParseException;
 import java.util.ArrayList;
