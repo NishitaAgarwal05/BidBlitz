@@ -8,12 +8,10 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 import java.util.stream.Collectors;
 
-import static java.util.Collections.sort;
-
 public class EventService {
-    MemberService memberService;
     Map<Date, Event> events;
     WinningStrategy winningStrategy;
+    private static final int BID_LIMIT =5;
 
     public EventService(WinningStrategy winningStrategy) {
         this.events = new HashMap<>();
@@ -37,7 +35,7 @@ public class EventService {
     }
     public void submitBids(Member member, int eventId, List<Integer>bids){
         Event event = getEvent(eventId);
-        if(bids.size()>5){
+        if(bids.size()>BID_LIMIT){
             throw new RuntimeException("Max 5 bids can be submitted");
         }
         Integer maxBid = bids.stream().max(Integer::compare).get();
